@@ -1,0 +1,31 @@
+.contenedorNav{
+  margin: 250px;
+  background-color: red;
+}
+
+
+
+
+.containerImg {
+  position: relative;
+  overflow: hidden;
+  margin-left: 50px;
+}
+
+.img {
+    transition: filter 0.5s ease-in-out;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background-color: transparent;
+  }
+  
+
+  .img:hover{
+    filter: brightness(2.2); /* Ajusta este valor para controlar el nivel de brillo */
+  }
+
+
+  offcanvas-body Navlink-item1 {
+    text-decoration: none;
+}
